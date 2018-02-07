@@ -1,0 +1,22 @@
+group 'com.adobe.webserver'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.adobe.assignment.Main'
+    }
+}
+
+dependencies {
+
+    testCompile 'junit:junit:4.12'
+}
