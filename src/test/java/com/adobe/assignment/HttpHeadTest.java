@@ -44,11 +44,14 @@ public class HttpHeadTest extends BaseTest
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(con.getInputStream()));
         String line = in.readLine();
-        if(line != null || line != "")
+        if ( line == null || line == "")
+        {
+            assert(true);
+        }
+        else
         {
             assert (false);
         }
-        assert (true);
     }
 
 }
