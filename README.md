@@ -14,8 +14,8 @@ Multithreaded Web server implemented in Java
 - Request Handler closes the stream.
 
 # Build Step
-./gradlew build (It will run all test cases as well)
-./gradlew assemble (To exclude testcases)
+- ./gradlew build (It will run all test cases as well)
+- ./gradlew assemble (To exclude testcases)
 
 # Run Step
 
