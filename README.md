@@ -13,6 +13,9 @@ Multithreaded Web server implemented in Java
 - On Receiving the HttpResponse, RequestHandler write the response to OutputStream.
 - Request Handler closes the stream.
 
+# Customization
+- Customization like port, maxThreads can be done from service.properties inside conf directory.
+
 # Build Step
 - ./gradlew build (It will run all test cases as well)
 - ./gradlew assemble (To exclude testcases)
