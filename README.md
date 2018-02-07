@@ -26,3 +26,6 @@ Build step creates jar file in build/libs/mywebserver-1.0-SNAPSHOT.jar
 
 execute java -jar "path to jar file"
 
+# Reference
+https://github.com/warchildmd/webserver
+
